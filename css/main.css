@@ -1,0 +1,44 @@
+header, main, footer{
+    max-width: 700px; 
+    margin: 1.25rem auto;
+}
+
+header, footer {
+    background-color: cornflowerblue;
+    text-align: center;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+}
+
+.bastianjpg {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    box-shadow: 10px 10px 8px rgb(151, 149, 149);
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+ul {
+    margin-bottom: 30px;
+}
+
+p {
+    margin: 0;
+    font-size: 15px;
+}
+
+footer {
+    padding: 10px;
+}
