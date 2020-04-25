@@ -1,0 +1,40 @@
+<!-- Doctype HTML5-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bastian Fernandez presentation page</title>
+    <meta name="description" content="Assignment portal for Bastian Fernandez in 
+    WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/bastian.jpg" alt="Bastian Fernandez picture" class="bastianjpg">
+        <h1>Bastian Fernandez</h1>
+        
+    </header>
+    <main>
+        <h2>WDD 230: Assignment Portal</h2>
+        <hr>
+        <ul>
+            <li>Lesson 02:<a href="index.html">Assignment Link</a></li>
+            <li>Lesson 03:<a href="index.html">Assignment Link</a></li>
+            <li>Lesson 04:<a href="index.html">Link</a> | <a href="index.html">Link</a></li>
+        </ul>
+    </main>
+    <footer>
+        &copy; <span id="date"></span> | Bastian Fernandez | Rexburg | <a href="https://byui.edu/">BYUI Online Learning</a>
+        <p>Last Updated: <span id="lastUpdate"></span></p>
+    </footer>
+    <script>
+        let year = new Date().getFullYear();
+        document.getElementById('date').innerHTML = year;
+
+        let update = document.lastModified;
+        document.getElementById('lastUpdate').innerHTML = update;
+
+    </script> 
+</body>
+</html>
