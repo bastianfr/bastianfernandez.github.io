@@ -4,9 +4,9 @@ header, main, footer{
 }
 
 header, footer {
-    background-color: cornflowerblue;
+    background-color: rgb(44, 153, 10);
     text-align: center;
-    border: 1px solid cornflowerblue;
+    border: 1px solid rgb(44, 153, 10);
     border-radius: 10px;
 }
 
