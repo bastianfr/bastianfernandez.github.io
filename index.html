@@ -7,7 +7,10 @@
     <title>Bastian Fernandez presentation page</title>
     <meta name="description" content="Assignment portal for Bastian Fernandez in 
     WDD 230: Web Frontend Development at Brigham Young University - Idaho">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -19,7 +22,7 @@
         <h2>WDD 230: Assignment Portal</h2>
         <hr>
         <ul>
-            <li>Lesson 02:<a href="index.html">Assignment Link</a></li>
+            <li>Lesson 02:<a href="lesson2/design-principles.html">Assignment Link</a></li>
             <li>Lesson 03:<a href="index.html">Assignment Link</a></li>
             <li>Lesson 04:<a href="index.html">Link</a> | <a href="index.html">Link</a></li>
         </ul>
@@ -28,13 +31,6 @@
         &copy; <span id="date"></span> | Bastian Fernandez | Rexburg | <a href="https://byui.edu/">BYUI Online Learning</a>
         <p>Last Updated: <span id="lastUpdate"></span></p>
     </footer>
-    <script>
-        let year = new Date().getFullYear();
-        document.getElementById('date').innerHTML = year;
-
-        let update = document.lastModified;
-        document.getElementById('lastUpdate').innerHTML = update;
-
-    </script> 
+    <script src="js/footer.js"></script> 
 </body>
 </html>

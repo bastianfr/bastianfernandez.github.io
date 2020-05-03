@@ -11,10 +11,8 @@ header, footer {
 }
 
 .bastianjpg {
-    float: right;
     margin-right: 20px;
     margin-top: 10px;
-    box-shadow: 10px 10px 8px rgb(151, 149, 149);
 }
 
 body {
@@ -22,6 +20,7 @@ body {
 }
 
 h1 {
+    font-family: 'Righteous', cursive;
     font-size: 40px;
 }
 

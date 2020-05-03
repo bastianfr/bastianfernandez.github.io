@@ -1,0 +1,11 @@
+@media (min-width: 37.5em) {
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+    #second {
+        display: block;
+    }
+    #third{
+        grid-column: span 2;
+    }
+}
