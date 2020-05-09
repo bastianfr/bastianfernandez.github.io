@@ -1,0 +1,14 @@
+@media (min-width: 37.5em) {
+    nav ul { 
+        display: flex; 
+    }
+    nav ul li { 
+        flex: 1 1 100%; 
+    }
+    main {
+		grid-template-columns: 1fr 1fr;
+    }
+    .name {
+        grid-column: span 2;
+    }
+}
