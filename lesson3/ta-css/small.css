@@ -76,4 +76,12 @@ main section {
     text-align: center;
 }
 
+section ul {
+    text-align: left;
+}
+
+section ol {
+    text-align: left;
+}
+
 
