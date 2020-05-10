@@ -8,7 +8,5 @@
     main {
 		grid-template-columns: 1fr 1fr;
     }
-    .name {
-        grid-column: span 2;
-    }
+
 }

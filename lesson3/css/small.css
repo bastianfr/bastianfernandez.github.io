@@ -46,7 +46,7 @@ main{
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
-    max-width: 80em;
+    max-width: 100em;
 }
 
 main section {

@@ -1,15 +1,5 @@
 @media (min-width: 60em) {
     main {
-		grid-template-columns: 1fr 1fr 1fr;
-    }
-    .purpose {
-        height: 700px;
-    }
-    .logo {
-        height: 700px;
-    }
-    .name {
-        grid-column: span 1;
-        height: 700px;
+		grid-template-rows: 1fr 1fr;
     }
 }

@@ -2,13 +2,14 @@
     main {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-    .purpose {
+    .audience {
         height: 700px;
     }
-    .logo {
+    .person {
+       
         height: 700px;
     }
-    .name {
+    .scenario {
         grid-column: span 1;
         height: 700px;
     }

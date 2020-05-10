@@ -45,36 +45,46 @@ nav a:hover {
 main{
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
     margin: 0 auto;
     max-width: 80em;
 }
 
-main section {
-	margin: 0;
-	border: 1px solid #bbb;
-	padding: 0;
+main h2 {
+	text-align: center;
 }
 
-.purpose {
-	border: 1px solid #bbb;
-	padding: 0 1rem;
-    background-color: #eee;
+table {
+    margin: 2rem;
     text-align: center;
+    margin-top: 0;
 }
 
-.logo {
-    border: 1px solid #bbb;
-	padding: 0 1rem;
-    background-color: #eee;
-    text-align: center;
-    align-content: center;
+th {
+    padding: 0.5em;
+    border: 1px solid;
 }
 
-.name {
-    border: 1px solid #bbb;
-	padding: 0 1rem;
-    background-color: #eee;
-    text-align: center;
+td {
+    width: 25%;
+    height: 3em;
+    border: 1px solid;
+}
+
+.color1 {
+    background-color: #0044AB;
+}
+
+.color2 {
+    background-color: #36454f;
+}
+
+.color3 {
+    background-color: #55CFFF;
+}
+
+.color4 {
+    background-color: #FFFFFF;
 }
 
 

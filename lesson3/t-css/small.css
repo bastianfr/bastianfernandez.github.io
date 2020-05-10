@@ -45,38 +45,94 @@ nav a:hover {
 main{
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr;
     margin: 0 auto;
     max-width: 80em;
 }
 
-main section {
-	margin: 0;
-	border: 1px solid #bbb;
-	padding: 0;
+main h2 {
+	text-align: center;
 }
 
-.purpose {
-	border: 1px solid #bbb;
-	padding: 0 1rem;
-    background-color: #eee;
+table {
+    margin: 2rem;
+    padding: auto;
     text-align: center;
+    margin-top: 0;
 }
 
-.logo {
-    border: 1px solid #bbb;
-	padding: 0 1rem;
-    background-color: #eee;
-    text-align: center;
-    align-content: center;
+td {
+    width: 20%;
+    height: 3em;
+    border: 1px solid;
 }
 
-.name {
-    border: 1px solid #bbb;
-	padding: 0 1rem;
-    background-color: #eee;
-    text-align: center;
+.header {
+    font-family: 'Concert One', cursive;
+    font-size: 60px;
+    background-color: #0044AB;
+    color: white;
 }
 
+.nav h2 {
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+    background-color: #36454f ;
+    color: white ;
+    margin:0;
+    height: 100%;
+}
+
+.nav {
+    padding: 0;
+}
+
+.foot h3 {
+    font-family: 'Carter One', cursive;
+    font-size: 20px;
+    background-color:  #0044AB ;
+    color: white ;
+    margin: 0;
+    height: 100%;
+}
+
+.foot {
+    padding: 0;
+    
+}
+
+
+.h1 h1 {
+    font-family: 'Carter One', cursive;
+    font-size: 30px;
+    color: #0044AB;
+}
+.h2 h2 {
+    font-family: 'Carter One', cursive;
+    font-size: 25px;
+    color: #376BB9;
+}
+.h3  h3 {
+    font-family: 'Carter One', cursive;
+    font-size: 20px;
+}
+
+.p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.color1 {
+    background-color: #0044AB;
+}
+
+.color2 {
+    background-color: #36454f ;
+}
+
+.color3 {
+    background-color:  #0044AB ;
+}
 
 /*
 img {

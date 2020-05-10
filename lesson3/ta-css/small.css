@@ -46,7 +46,7 @@ main{
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
-    max-width: 80em;
+    max-width: 120em;
 }
 
 main section {
@@ -55,24 +55,23 @@ main section {
 	padding: 0;
 }
 
-.purpose {
+.audience {
 	border: 1px solid #bbb;
-	padding: 0 1rem;
+    padding: 0 1rem;
     background-color: #eee;
     text-align: center;
 }
 
-.logo {
+.person {
     border: 1px solid #bbb;
-	padding: 0 1rem;
+    padding: 0 1rem;
     background-color: #eee;
     text-align: center;
-    align-content: center;
 }
 
-.name {
+.scenario {
     border: 1px solid #bbb;
-	padding: 0 1rem;
+    padding: 0 1rem;
     background-color: #eee;
     text-align: center;
 }
