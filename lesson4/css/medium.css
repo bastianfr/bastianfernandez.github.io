@@ -1,0 +1,19 @@
+@media only screen and (min-width: 600px) {
+    nav {
+        max-width: 100%;
+        font-size: 20px;
+    }
+    main, footer {
+        max-width: 700px;
+        margin: auto;
+    }
+    footer {
+        padding: 1em 0;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .logopic{ 
+        width: 160px;
+    }
+}
