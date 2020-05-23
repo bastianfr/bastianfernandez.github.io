@@ -1,67 +1,81 @@
 /* Nav */
-nav, footer {
-	margin: 0 auto;
-	max-width: 600px;
+nav,
+footer {
+    margin: 0 auto;
+    max-width: 600px;
     background-color: #0044AB;
     text-align-last: center;
 }
+
 nav {
     font-family: 'Concert One', cursive;
 }
+
 .navigation {
-	list-style: none;
+    list-style: none;
     padding: 0;
     margin: 0;
 }
+
 .navigation li:first-child {
-	display: block;
+    display: block;
 }
+
 .navigation li {
     display: none;
 }
+
 .navigation a {
-	display: block;
-	padding: 0.75rem;
-	text-decoration: none;
-	color: white;
-	font-weight: 700;
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
 }
+
 .navigation a:hover {
-	color: white;
-	background-color: #376BB9;
+    color: white;
+    background-color: #376BB9;
 }
+
 .responsive li {
-	display: block;
+    display: block;
 }
+
 .active a {
     background-color: #55CFFF;
     color: #0044AB;
 }
 
 /* Body */
-body{
+body {
     font-size: 16px;
     font-family: 'Carter One', cursive;
 }
+
 header {
-	background-color: #55CFFF;
-	display: flex;
-	align-items:center;
-    justify-content:center;
+    background-color: #55CFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 header img {
-	width: 120px;
-	height: auto;
+    width: 120px;
+    height: auto;
 }
+
 .heading {
     display: flex;
     flex-direction: column;
 }
+
 .heading p {
     margin: 0;
     text-align: center;
 
 }
+
 h1 {
     color: #0044AB;
     margin: auto;
@@ -80,6 +94,7 @@ h2 {
 main {
     display: block;
 }
+
 .flex-child {
     border: 1px solid #0044AB;
     background-color: #36454f;
@@ -88,6 +103,7 @@ main {
     padding: 1.5em;
     text-align: center;
 }
+
 .flex-child4 {
     margin-bottom: 0;
     margin-right: 0;
@@ -101,10 +117,12 @@ main {
     background-color: white;
     position: relative;
 }
+
 .prestonImg {
     max-width: 100%;
     box-shadow: 0 0 20px black;
 }
+
 .summary {
     display: flex;
     flex-direction: column;
@@ -116,11 +134,12 @@ main {
     padding: 0.5rem;
     opacity: .8;
 }
+
 .summary p {
     margin: 0.3em;
 }
 
-/* 5 day */ 
+/* 5 day */
 .flex-child2 {
     display: none;
 }
@@ -134,6 +153,7 @@ main {
     text-align: left;
 
 }
+
 .flex-child3 img {
     max-width: 100%;
 }
@@ -147,12 +167,15 @@ main {
     text-align: center;
     overflow: auto;
 }
+
 .flex-child4 img {
     max-width: 100%;
 }
+
 .flex-child4 p {
     margin: 0.3em;
 }
+
 .info {
     padding: 1rem 2rem 1rem 6rem;
     text-align: left;
@@ -172,6 +195,7 @@ footer p {
 p {
     font-family: 'Montserrat', sans-serif;
 }
+
 .fa {
     padding: 10px;
     font-size: 15px;
@@ -180,34 +204,38 @@ p {
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-  }
+}
+
 .fa-facebook {
     background: #3B5998;
     color: white;
-  }
-  
-  .fa-twitter {
+}
+
+.fa-twitter {
     background: #55ACEE;
     color: white;
-  }
-  .fa-instagram {
+}
+
+.fa-instagram {
     background: #125688;
     color: white;
-  }
-  .fa-pinterest {
+}
+
+.fa-pinterest {
     background: #cb2027;
     color: white;
-  }
+}
 
 
-  /*banner*/
-  .banner{
-      text-align: center;
-      background-color: yellow;
-      margin: 0;
-      padding: 1rem;
-      font-size: 1.5rem;
-  }
-  .nobanner {
-      display:none;
-  }
+/*banner*/
+.banner {
+    text-align: center;
+    background-color: yellow;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.nobanner {
+    display: none;
+}
