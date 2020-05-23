@@ -1,4 +1,19 @@
 @media only screen and (min-width: 600px) {
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+		display: block; 
+		flex: 1 1 auto;
+    }
+    .navigation a {
+		text-align: center;
+	}
+
+    .navigation li:first-child {
+		display: none;
+    }
+    
     nav {
         max-width: 100%;
         font-size: 20px;
@@ -20,6 +35,13 @@
 
     .logopic {
         width: 160px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .active a {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
 
     /*5 days */
@@ -51,12 +73,11 @@
 
     .forecast section {
         margin: 0;
-        padding: 1em;
         border-bottom: 1px solid black;
         border-left: 1px solid black;
     }
     .flex-child2 h2 { 
-        margin: 0;
+        margin: 1em;
     }
 
     /*Article*/
@@ -64,5 +85,20 @@
         float: right;
         margin: 1em 1em;
         box-shadow: 0 0 20px black;
+    }
+
+    /*Contact Info*/
+    .flex-child4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .flex-child4 img {
+        float: left;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .info {
+        padding: 1rem 2rem 1rem 5rem;
+        text-align: left;
     }
 }

@@ -11,3 +11,10 @@ let year = new Date().getFullYear();
 let fulldate = dayName + ", " + d.getDate() + " " + monthName + " " + year;
 
 document.getElementById('date').innerHTML = fulldate;
+
+var dat = new Date();
+var n = dat.getDay();
+
+if (n != 5) {
+    document.getElementsByClassName("banner")[0].classList.toggle("nobanner");
+}

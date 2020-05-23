@@ -33,7 +33,10 @@ nav {
 .responsive li {
 	display: block;
 }
-
+.active a {
+    background-color: #55CFFF;
+    color: #0044AB;
+}
 
 /* Body */
 body{
@@ -77,9 +80,6 @@ h2 {
 main {
     display: block;
 }
-main h2 {
-    margin-bottom: 0.5em ;
-}
 .flex-child {
     border: 1px solid #0044AB;
     background-color: #36454f;
@@ -88,7 +88,7 @@ main h2 {
     padding: 1.5em;
     text-align: center;
 }
-.flex-wraper div:last-child {
+.flex-child4 {
     margin-bottom: 0;
     margin-right: 0;
     margin-left: 0;
@@ -138,6 +138,26 @@ main h2 {
     max-width: 100%;
 }
 
+/*Contact info*/
+.flex-child4 {
+    border: 1px solid #0044AB;
+    background-color: #36454f;
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+    overflow: auto;
+}
+.flex-child4 img {
+    max-width: 100%;
+}
+.flex-child4 p {
+    margin: 0.3em;
+}
+.info {
+    padding: 1rem 2rem 1rem 6rem;
+    text-align: left;
+}
+
 
 /* Footer */
 footer {
@@ -152,3 +172,42 @@ footer p {
 p {
     font-family: 'Montserrat', sans-serif;
 }
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+
+
+  /*banner*/
+  .banner{
+      text-align: center;
+      background-color: yellow;
+      margin: 0;
+      padding: 1rem;
+      font-size: 1.5rem;
+  }
+  .nobanner {
+      display:none;
+  }
