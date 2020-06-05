@@ -1,0 +1,136 @@
+/* Nav */
+nav,
+footer {
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #0044AB;
+    text-align-last: center;
+}
+
+nav {
+    font-family: 'Concert One', cursive;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.navigation a:hover {
+    color: white;
+    background-color: #376BB9;
+}
+
+.responsive li {
+    display: block;
+}
+
+.active a {
+    background-color: #55CFFF;
+    color: #0044AB;
+}
+
+/* Body */
+body {
+    font-size: 16px;
+    font-family: 'Carter One', cursive;
+}
+
+header {
+    background-color: #55CFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading p {
+    margin: 0;
+    text-align: center;
+
+}
+
+h1 {
+    color: #0044AB;
+    margin: auto;
+    font-size: 40px;
+    font-family: 'Concert One', cursive;
+    text-shadow: 2px 2px #36453f;
+}
+
+h2 {
+    text-align: center;
+    color: #376BB9;
+}
+
+/*main */
+main {
+    display: block;
+}
+
+/* Footer */
+footer {
+    color: white;
+    padding: 1em;
+    margin-top: 3rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*banner*/
+.banner {
+    text-align: center;
+    background-color: yellow;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.nobanner {
+    display: none;
+}
+
+/* gallery div*/
+.gallery {
+    display: grid;
+    gap: 1em;
+}
+
+.imageholder {
+    justify-self: center;
+    max-width: 100%;
+}
+
+

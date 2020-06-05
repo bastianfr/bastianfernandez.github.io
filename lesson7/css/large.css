@@ -1,0 +1,54 @@
+@media only screen and (min-width: 1200px) {
+
+
+    nav {
+        font-size: 25px;
+    }
+
+    main,
+    footer {
+        max-width: 1000px;
+        margin: auto;
+        margin-top: 3rem;
+    }
+
+    .logopic {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 60px;
+
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .flex-child {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+    .flex-child {
+        margin: 1em 0;
+    }
+
+    .forecast section {
+        padding: 1em;
+    }
+
+    /* gallery div*/
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
+    }
+
+    .gallery img {
+        justify-self: center;
+    }
+}

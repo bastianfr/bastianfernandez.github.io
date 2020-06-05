@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salio el sol - Presto town</title>
+  <meta name="description" content="Assignment of Website Planning Document for the weather site in 
+    WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <link rel="icon" href="favicon.ico">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+  <section class="banner">
+    <h3>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h3>
+  </section>
+  <header>
+    <img src="images/logo.png" alt="Logo picture" class="logopic">
+    <section class="heading">
+      <h1>Salio El Sol</h1>
+      <p>what you need to know</p>
+    </section>
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="../lesson-6/preston-6.html">Preston</a></li>
+      <li><a href="#">Soda Spring</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="#">Storn Center</a></li>
+      <li class="active"><a href="#">Gallery</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2 class="place">Weather Gallery</h2>
+    <div class="gallery">
+      <div class="imageholder">
+        <img src="images/placeholder2.webp" data-src="images/image1.webp" alt="image of the weather">
+        <p>Clouds on the summer</p>
+      </div>
+      <div class="imageholder">
+        <img src="images/placeholder2.webp" data-src="images/image2.webp" alt="image of the weather">
+        <p>Lake</p>
+      </div>
+      <div class="imageholder">
+        <img src="images/placeholder2.webp" data-src="images/image3.webp" alt="image of the weather">
+        <p>Spring Forest</p>
+      </div>
+      <div class="imageholder">
+        <img src="images/placeholder2.webp" data-src="images/image4.webp" alt="image of the weather">
+        <p>Green Hill</p>
+      </div>
+      <div class="imageholder">
+        <img src="images/placeholder2.webp" data-src="images/image5.webp" alt="image of the weather">
+        <p>Snowed Mountain</p>
+      </div>
+      <div class="imageholder">
+        <img src="images/placeholder2.webp" data-src="images/image6.webp" alt="image of the weather">
+        <p>Tree on the fog</p>
+      </div>
+      <div class="imageholder">
+        <img src="images/placeholder2.webp" data-src="images/image7.webp" alt="image of the weather">
+        <p>Can in summer</p>
+      </div>
+      <div class="imageholder">
+        <img src="images/placeholder2.webp" data-src="images/image8.webp" alt="image of the weather">
+        <p>After the rain</p>
+      </div>
+      <div class="imageholder">
+        <img src="images/placeholder2.webp" data-src="images/image9.webp" alt="image of the weather">
+        <p>Canyon on Summer</p>
+      </div>
+    </div>
+  </main>
+  <script src="JavaScript/java.js"></script>
+  <footer>
+    &copy; Salio El Sol | WDD 230 | Bastian Fernandez
+    <p><span id="date"></span></p>
+  </footer>
+  <script src="JavaScript/js.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: [
+          'Concert One', 'Carter One', 'Montserrat'
+        ]
+      }
+    });
+  </script>
+</body>
+
+</html>
