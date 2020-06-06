@@ -54,5 +54,11 @@
         font-weight: bold;
     }
 
+    .imageholder p {
+        display: block;
+    }
+    .imageholder {
+        border: solid 1px #80808029;
+    }
 
 }
