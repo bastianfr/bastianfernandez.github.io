@@ -7,9 +7,12 @@
 
     main,
     footer {
-        max-width: 1000px;
+        max-width: 90%;
         margin: auto;
         margin-top: 3rem;
+    }
+    footer {
+        max-width: 100%;
     }
 
     .logopic {
@@ -43,12 +46,13 @@
 
     /* gallery div*/
     .gallery {
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 1em;
+        gap: 2em;
+    }
+    .imageholder:hover {
+        box-shadow: 0 0 50px #333;
+        font-weight: bold;
     }
 
-    .gallery img {
-        justify-self: center;
-    }
+
 }

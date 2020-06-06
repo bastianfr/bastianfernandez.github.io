@@ -131,6 +131,13 @@ p {
 .imageholder {
     justify-self: center;
     max-width: 100%;
+    text-align: center;
+    border: solid 1px #80808029;
+    box-shadow: 0px 0px 5px 0px grey;
+}
+
+.imageholder img {
+    max-width: 100%;
 }
 
 
