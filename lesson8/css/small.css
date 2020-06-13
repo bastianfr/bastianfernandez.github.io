@@ -92,6 +92,7 @@ h2 {
 /*main */
 main {
     display: block;
+    min-height: 30rem;
 }
 
 /* Footer */
@@ -151,7 +152,7 @@ form label.top input, form label.top select, form label.top textarea {
     border-radius: 4px;
     padding: .75rem;
     width: 100%;
-    max-width: 20rem;
+    max-width: 90%;
 }
 
 form label.sbs {
@@ -163,18 +164,32 @@ form label.sbs {
     padding-top: 1rem;
 }
 form input.submitBtn {
-    border: none;
+
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     width: 96%;
     margin: auto;
     margin-left: 2%;
-    max-width: 20rem;
-
+}
+form input.submitBtn:hover {
+    box-shadow: 0 0 10px #999;
+    font-weight: bold;
 }
 form label.top input:required {
     border-left: red solid 6px;
 }
 form label.top input:required:valid {
     border-left: green solid 6px;
+}
+label.required::after {
+    content: " *";
+    color: red;
+}
+
+.sbs {
+    display: flex;
+    align-items: center;
+}
+span {
+    padding: 1rem;
 }
