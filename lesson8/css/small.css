@@ -122,25 +122,59 @@ p {
     display: none;
 }
 
-/* gallery div*/
-.gallery {
-    display: grid;
-    gap: 1em;
+/* form*/
+
+form { 
+    max-width: 500px;
+    margin: auto;
+}
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend {
+    margin: 0 1rem;
+    padding: 0 .5rem;
 }
 
-.imageholder {
-    justify-self: center;
-    max-width: 100%;
-    text-align: center;
-    
+form label.top {
+    display: block;
+    padding-top: 1rem;
+
 }
-.imageholder p {
-    display: none;
+form label.top input, form label.top select, form label.top textarea {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px;
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
 }
 
-.imageholder img {
-    max-width: 100%;
-    box-shadow: 0px 0px 5px 0px grey;
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
 }
+.userL {
+    display: block;
+    padding-top: 1rem;
+}
+form input.submitBtn {
+    border: none;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    width: 96%;
+    margin: auto;
+    margin-left: 2%;
+    max-width: 20rem;
 
-
+}
+form label.top input:required {
+    border-left: red solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
