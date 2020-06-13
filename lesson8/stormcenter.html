@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salio el sol - Storm Center</title>
+  <meta name="description" content="Assignment of Website Planning Document for the weather site in 
+    WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <link rel="icon" href="favicon.ico">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+  <section class="banner">
+    <h3>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h3>
+  </section>
+  <header>
+    <img src="images/logo.png" alt="Logo picture" class="logopic">
+    <section class="heading">
+      <h1>Salio El Sol</h1>
+      <p>what you need to know</p>
+    </section>
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="../lesson-6/preston-6.html">Preston</a></li>
+      <li><a href="#">Soda Spring</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li class="active"><a href="#">Storm Center</a></li>
+      <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2 class="place">Storm Center</h2>
+    
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label> Fullname* <input type="text" name="fname" required></label>
+            <label> Email <input type="email" name="email" placeholder="somebody@example.com"></label>
+            <label> Phone Number* <input type="tel" name="phone" required></label>
+            <label> Zip Code* <input type="number" name="zcode" required></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Storm Information</legend>
+            <label>Storm Date <input type="date" name="sdate"></label>
+            <label>Storm Type <input list="stormList"></label>
+            <datalist id="stormList">
+                <option value="Flash Flood">
+                <option value="Hail">
+                <option value="Hurricane">
+                <option value="Thunderstorm">
+                <option value="Tornado">
+            </datalist>
+            <label>Storm Severity 
+            <input type="range" value="5" min="1" max="10" step="1" list="sSeverity">
+            </label> 
+            <datalist id="sSecurity">
+                <option value="0">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+                <option value="6">
+                <option value="7">
+                <option value="8">
+                <option value="9">
+                <option value="10">
+            </datalist>
+            <label>Storm Region
+                <select name="sregion">
+                    <option value="preston">Preston</option>
+                    <option value="sodaSpring">Soda Springs</option>
+                    <option value="fishHaven">Fish Haven</option>
+                </select>
+            </label>
+            <div>User In Danger Level</div>
+            <label><input type="radio" name="danger" value="yes"> Yes</label>
+            <label><input type="radio" name="danger" value="maybe"> Maybe</label>
+            <label><input type="radio" name="danger" value="no"> No</label>
+
+            <label>Additional Information <textarea name="aInformation" cols="30" rows="10"></textarea></label>
+        </fieldset>
+    </form>
+
+
+  </main>
+  <footer>
+    &copy; Salio El Sol | WDD 230 | Bastian Fernandez
+    <p><span id="date"></span></p>
+  </footer>
+  <script src="JavaScript/js.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: [
+          'Concert One', 'Carter One', 'Montserrat'
+        ]
+      }
+    });
+  </script>
+</body>
+
+</html>
