@@ -42,8 +42,7 @@
     <form method="get" action="thanks.html">
       <fieldset>
         <legend>Contact Information</legend>
-        <label class="top"> Fullname *<input type="text" name="fname" autofocus required
-          pattern="\w{5,}\s*\w*" autofocus required></label>
+        <label class="top"> Fullname *<input type="text" name="fname" pattern="\w+\s+\w+" autofocus required></label>
         <label class="top"> Email *<input type="email" name="email" placeholder="somebody@example.com"></label>
         <label class="top"> Phone Number<input type="tel" name="phone" required></label>
         <label class="top"> Zip Code *<input type="number" name="zcode" required></label>
@@ -60,12 +59,10 @@
           <option value="Thunderstorm">
           <option value="Tornado">
         </datalist>
-        <label class="top">Storm Severity
-          <div class="sbs">
+        <label class="top" id="severity">Storm Severity
           <input type="range" value="5" min="1" max="10" step="1" list="tickmarks"
           oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
           <span id="ratingvalue">5</span>
-          </div>
       </label>
         <datalist id="tickmarks">
           <option value="0">

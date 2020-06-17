@@ -186,10 +186,13 @@ label.required::after {
     color: red;
 }
 
-.sbs {
-    display: flex;
+#severity {
+    
     align-items: center;
 }
 span {
     padding: 1rem;
+}
+* {
+    box-sizing: border-box;
 }
