@@ -45,20 +45,10 @@
     }
 
     /* gallery div*/
-    .gallery {
+    #towns {
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 2em;
-    }
-    .imageholder:hover {
-        box-shadow: 0 0 50px #333;
-        font-weight: bold;
-    }
-
-    .imageholder p {
-        display: block;
-    }
-    .imageholder {
-        border: solid 1px #80808029;
+        
     }
 
 }

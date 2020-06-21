@@ -51,12 +51,17 @@
 
     /* gallery div*/
     #towns {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         
     }
     #towns section {
         display: block;
         max-width: 100%;
     }
+    #towns img{
+        max-width: 100%;
+    }
+
 
 }
