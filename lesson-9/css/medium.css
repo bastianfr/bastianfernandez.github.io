@@ -50,13 +50,13 @@
     }
 
     /* gallery div*/
-    .gallery {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2em;
+    #towns {
+        display: flex;
+        
+    }
+    #towns section {
+        display: block;
+        max-width: 100%;
     }
 
-    .gallery img {
-        justify-self: center;
-    }
 }

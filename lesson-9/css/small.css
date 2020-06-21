@@ -123,76 +123,49 @@ p {
     display: none;
 }
 
-/* form*/
 
-form { 
-    max-width: 500px;
-    margin: auto;
-}
-form fieldset {
-    margin: 2rem 0;
-    border: 1px solid;
-    border-radius: 10px;
-    padding: .5rem 2%;
-}
-form legend {
-    margin: 0 1rem;
-    padding: 0 .5rem;
-}
 
-form label.top {
-    display: block;
-    padding-top: 1rem;
+/*main*/
+
+#towns {
+    display: flex;
+    flex-wrap: wrap;
+}
+#towns section {
+    display: flex;
+    background-color: #0044AB;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0.5rem;
+    color:white;
+    width: 600px;
+    padding: .35rem;
+    justify-content: center;
+    align-content: center;
 
 }
-form label.top input, form label.top select, form label.top textarea {
-    display: block;
-    font-size: 1rem;
-    border: solid 1px;
-    border-radius: 4px;
-    padding: .75rem;
-    width: 100%;
-    max-width: 90%;
+#towns section:nth-child(odd) {
+    flex-direction: row-reverse;
 }
 
-form label.sbs {
-    display: block;
-    padding: .75rem 0;
+#towns h2 {
+    color: white;
+    font-size: 2rem;
+    margin: 1rem;
+    margin-bottom: 0;
 }
-.userL {
-    display: block;
-    padding-top: 1rem;
+#towns h3 {
+    font-size: 0.9rem;
+    margin: 0;
+    margin-bottom: 2rem;
 }
-form input.submitBtn {
-
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    width: 96%;
-    margin: auto;
-    margin-left: 2%;
-}
-form input.submitBtn:hover {
-    box-shadow: 0 0 10px #999;
-    font-weight: bold;
-}
-form label.top input:required {
-    border-left: red solid 6px;
-}
-form label.top input:required:valid {
-    border-left: green solid 6px;
-}
-label.required::after {
-    content: " *";
-    color: red;
-}
-
-#severity {
+#towns p {
+    margin: 1rem;
     
-    align-items: center;
 }
-span {
+#towns img{
+    max-width: 200px;
+    max-height: 200px;
     padding: 1rem;
-}
-* {
-    box-sizing: border-box;
+    
 }
