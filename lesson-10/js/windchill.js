@@ -13,7 +13,7 @@ document.getElementById('windC').innerHTML = final;
 
 //Connect with JSON to get weather information
 
-const apiURL = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=03d4df0de6cfef49bdedb2f58427f4e5&units=imperial';
+const apiURL = '//api.openweathermap.org/data/2.5/weather?id=5604473&appid=03d4df0de6cfef49bdedb2f58427f4e5&units=imperial';
 
 
 fetch(apiURL)
@@ -31,7 +31,7 @@ fetch(apiURL)
 
 
 // Connect with JSON to get forecast infromation
-const api2URL = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=03d4df0de6cfef49bdedb2f58427f4e5&units=imperial';
+const api2URL = '//api.openweathermap.org/data/2.5/forecast?id=5604473&appid=03d4df0de6cfef49bdedb2f58427f4e5&units=imperial';
 
 const dayOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
