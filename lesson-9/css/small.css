@@ -141,6 +141,7 @@ p {
     padding: .35rem;
     justify-content: center;
     align-content: center;
+    width: 100%;
 
 }
 #towns section:nth-child(odd) {
