@@ -184,6 +184,11 @@ main {
 
 
 /* Footer */
+#reference {
+    color: white;
+}
+
+
 footer {
     color: white;
     padding: 1em;

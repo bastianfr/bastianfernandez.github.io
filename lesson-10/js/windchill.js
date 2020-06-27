@@ -1,16 +1,3 @@
-// Calculate the Wind Chill
-
-var t = Number(document.getElementById("high").textContent);
-var s = Number(document.getElementById("windS").textContent);
-if (t <= 50 && s >= 3) { 
-    var f = (35.74 + (0.6215 * t) - (35.75 * Math.pow(s,0.16)) + (0.4275 * t * (Math.pow(s,0.16))));
-    var final = Math.round(f) + " °F";
-} else {
-    var final = 'N/A'
-}
-document.getElementById('windC').innerHTML = final;
-
-
 //Connect with JSON to get weather information
 
 const apiURL = '//api.openweathermap.org/data/2.5/weather?id=5604473&appid=03d4df0de6cfef49bdedb2f58427f4e5&units=imperial';
@@ -26,6 +13,17 @@ fetch(apiURL)
         document.getElementById('high').innerText = data.main.temp_max;
         document.getElementById('humidity').innerText = data.main.humidity;
         document.getElementById('windS').innerText = data.wind.speed;
+
+        // Calculate the Wind Chill
+
+        if (data.main.temp_max <= 50 && data.wind.speed >= 3) { 
+            var f = (35.74 + (0.6215 * data.main.temp_max) - (35.75 * Math.pow(data.wind.speed,0.16)) + (0.4275 * data.main.temp_max * (Math.pow(data.wind.speed,0.16))));
+            var final = Math.round(f) + " °F";
+        } else {
+            var final = 'N/A'
+        }
+        document.getElementById('windC').innerHTML = final;
+
         });
 
 

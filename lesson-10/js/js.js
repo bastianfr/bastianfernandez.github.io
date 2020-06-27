@@ -18,3 +18,4 @@ var n = dat.getDay();
 if (n != 5) {
     document.getElementsByClassName("banner")[0].classList.toggle("nobanner");
 }
+
