@@ -1,0 +1,173 @@
+/* Nav */
+nav,
+footer {
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #0044AB;
+    text-align-last: center;
+}
+
+nav {
+    font-family: 'Concert One', cursive;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.navigation a:hover {
+    color: white;
+    background-color: #376BB9;
+}
+
+.responsive li {
+    display: block;
+}
+
+.active a {
+    background-color: #55CFFF;
+    color: #0044AB;
+}
+
+/* Body */
+body {
+    font-size: 16px;
+    font-family: 'Carter One', cursive;
+}
+
+header {
+    background-color: #55CFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading p {
+    margin: 0;
+    text-align: center;
+
+}
+
+h1 {
+    color: #0044AB;
+    margin: auto;
+    font-size: 40px;
+    font-family: 'Concert One', cursive;
+    text-shadow: 2px 2px #36453f;
+}
+
+h2 {
+    text-align: center;
+    color: #376BB9;
+}
+
+/*main */
+main {
+    display: block;
+    min-height: 30rem;
+}
+
+/* Footer */
+footer {
+    color: white;
+    padding: 1em;
+    margin-top: 3rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*banner*/
+.banner {
+    text-align: center;
+    background-color: yellow;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.nobanner {
+    display: none;
+}
+
+
+
+/*main*/
+
+#towns {
+    display: flex;
+    flex-wrap: wrap;
+}
+#towns section {
+    display: flex;
+    background-color: #0044AB;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0.5rem;
+    color:white;
+    padding: .35rem;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+
+}
+#towns section:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+#towns h2 {
+    color: white;
+    font-size: 2rem;
+    margin: 1rem;
+    margin-bottom: 0;
+}
+#towns h3 {
+    font-size: 0.9rem;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+#towns p {
+    margin: 1rem;
+    
+}
+#towns img{
+    max-width: 200px;
+    max-height: 200px;
+    margin: 1rem;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    
+}

@@ -4,14 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Salio el sol - Storm Center</title>
+  <title>Salio el sol - Home</title>
   <meta name="description" content="Assignment of Website Planning Document for the weather site in 
     WDD 230: Web Frontend Development at Brigham Young University - Idaho">
   <link rel="icon" href="favicon.ico">
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/small.css" rel="stylesheet">
-  <link href="css/medium.css" rel="stylesheet">
-  <link href="css/large.css" rel="stylesheet">
+  <link href="css-index/small.css" rel="stylesheet">
+  <link href="css-index/medium.css" rel="stylesheet">
+  <link href="css-index/large.css" rel="stylesheet">
 </head>
 
 <body>
@@ -29,23 +29,23 @@
     <ul class="navigation">
       <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
       <li class="active"><a href="#">Home</a></li>
-      <li><a href="../lesson-10/preston-10.html">Preston</a></li>
+      <li><a href="preston.html">Preston</a></li>
       <li><a href="#">Soda Spring</a></li>
       <li><a href="#">Fish Haven</a></li>
-      <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
-      <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+      <li><a href="stormcenter.html">Storm Center</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
     </ul>
   </nav>
   <main>
     <h2 class="place">Home Page</h2>
     <div id="towns"></div>
-    
+    <script src="js/index.js"></script>
   </main>
   <footer>
     &copy; Salio El Sol | WDD 230 | Bastian Fernandez
     <p><span id="date"></span></p>
   </footer>
-  <script src="js/js.js"></script>
+  <script src="js/footer.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   <script>
     WebFont.load({

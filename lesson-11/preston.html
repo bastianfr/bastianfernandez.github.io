@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salio el sol - Presto town</title>
+  <meta name="description" content="Assignment of Website Planning Document for the weather site in 
+    WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+  <section class="banner">
+    <h3>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h3>
+  </section>
+  <header>
+    <img src="images/logo.png" alt="Logo picture" class="logopic">
+    <section class="heading">
+      <h1>Salio El Sol</h1>
+      <p>what you need to know</p>
+    </section>
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li class="active"><a href="#">Preston</a></li>
+      <li><a href="#">Soda Spring</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="stormcenter.html">Storm Center</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2 class="place">Preston Idaho</h2>
+    <div class="flex-wraper">
+      <div class="flex-child">
+        <picture class="hero">
+          <source media="(max-width: 599px)" srcset="images/small.webp">
+          <source media="(max-width: 1199px)" srcset="images/medium.webp">
+          <img src="images/large.webp" alt="image of Preston" class="prestonImg">
+        </picture>
+        <div class="summary">
+          <h3>Weather Summary</h3>
+          <p>Currently: <span id="currently"></span>
+          </p>
+          <p>High: <span id="high"></span>
+          </p>
+          <p>Wind Chill: <span id="windC"></span>
+          </p>
+          <p>Humidity: <span id="humidity"></span> %
+          </p>
+          <p>Wind Speed: <span id="windS"></span> mph
+          </p>
+
+        </div>
+      </div>
+      <div class="flex-child2">
+        <h2>5 Day Forecast</h2>
+        <div class="forecast">
+          <h3 class="day"></h3>
+          <h3 class="day"></h3>
+          <h3 class="day"></h3>
+          <h3 class="day"></h3>
+          <h3 class="day"></h3>
+          <section>
+            <img src="images/placeholder3.webp" alt="placeholder" class="icon">
+            <p><span class="temp"></span> °F</p>
+          </section>
+          <section>
+            <img src="images/placeholder3.webp" alt="placeholder" class="icon">
+            <p><span class="temp"></span> °F</p>
+          </section>
+          <section>
+            <img src="images/placeholder3.webp" alt="placeholder" class="icon">
+            <p><span class="temp"></span> °F</p>
+          </section>
+          <section>
+            <img src="images/placeholder3.webp" alt="placeholder" class="icon">
+            <p><span class="temp"></span> °F</p>
+          </section>
+          <section>
+            <img src="images/placeholder3.webp" alt="placeholder" class="icon">
+            <p><span class="temp"></span> °F</p>
+          </section>
+          <script src="js/windchill.js"></script>
+        </div>
+      </div>
+
+      <div class="flex-child3">
+        <img src="images/article.jpg" alt="article picture">
+        <h3>Article title</h3>
+        <p>by Bastian Fernandez</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis repellat rerum magni expedita
+          consequatur beatae illum doloremque voluptates nulla quibusdam dolor aspernatur, mollitia quam dicta autem
+          voluptatem quos iste repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam qui
+          possimus incidunt totam nostrum vero nesciunt deleniti, animi quod perferendis alias, rerum veniam. Iure
+          dolorem nobis sit doloribus, sed facilis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
+          iusto ipsum quis nulla error, eligendi alias omnis tempora voluptates voluptatum, eos numquam quas. Corporis
+          magni assumenda iure repudiandae omnis autem?
+        </p>
+
+      </div>
+      <div class="flex-child4">
+        <img src="images/mapP.jpg" alt="preston map">
+        <section class="info">
+          <h3>Salio EL Sol</h3>
+          <p>35 main street</p>
+          <p>Preston, ID 83263</p>
+          <br>
+          <p>&#9742; 111-111-1111</p>
+          <p>&#9993; www.salioelsol.com</p>
+          <br>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-pinterest"></a>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Weather data source <a href="https://openweathermap.org/" id="reference"> Open Weather Map</a></p>
+    &copy; Salio El Sol | WDD 230 | Bastian Fernandez
+    <p><span id="date"></span></p>
+  </footer>
+  <script src="js/footer.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: [
+          'Concert One', 'Carter One', 'Montserrat'
+        ]
+      }
+    });
+  </script>
+</body>
+
+</html>
