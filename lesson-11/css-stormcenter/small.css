@@ -196,3 +196,7 @@ span {
 * {
     box-sizing: border-box;
 }
+.range-item {
+    display: flex;
+    align-items: center;
+}

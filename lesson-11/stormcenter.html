@@ -30,8 +30,8 @@
       <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
       <li><a href="index.html">Home</a></li>
       <li><a href="preston.html">Preston</a></li>
-      <li><a href="#">Soda Spring</a></li>
-      <li><a href="#">Fish Haven</a></li>
+      <li><a href="sodaspring.html">Soda Spring</a></li>
+      <li><a href="fishhaven.html">Fish Haven</a></li>
       <li class="active"><a href="#">Storm Center</a></li>
       <li><a href="gallery.html">Gallery</a></li>
     </ul>
@@ -60,10 +60,12 @@
           <option value="Tornado">
         </datalist>
         <label class="top" id="severity">Storm Severity
-          <input type="range" value="5" min="1" max="10" step="1" list="tickmarks"
-          oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-          <span id="ratingvalue">5</span>
-      </label>
+          <div class="range-item">
+            <input type="range" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)"
+              onchange="adjustRating(this.value)">
+            <span id="ratingvalue">5</span>
+          </div>
+        </label>
         <datalist id="tickmarks">
           <option value="0">
           <option value="1">
