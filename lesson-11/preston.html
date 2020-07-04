@@ -38,13 +38,13 @@
     </ul>
   </nav>
   <main>
-    <h2 class="place">Preston Idaho</h2>
+    <h2 class="place" id="place">Preston Idaho</h2>
     <div class="flex-wraper">
       <div class="flex-child">
         <picture class="hero">
-          <source media="(max-width: 599px)" srcset="images/small.webp">
-          <source media="(max-width: 1199px)" srcset="images/medium.webp">
-          <img src="images/large.webp" alt="image of Preston" class="prestonImg">
+          <source media="(max-width: 599px)" srcset="images/small_p.webp">
+          <source media="(max-width: 1199px)" srcset="images/medium_p.webp">
+          <img src="images/large_p.webp" alt="image of Preston" class="prestonImg">
         </picture>
         <div class="summary">
           <h3>Weather Summary</h3>
@@ -92,6 +92,16 @@
           <script src="js/windchill.js"></script>
         </div>
       </div>
+
+      <div class="events">
+        <h2>Upcoming Events:</h2>
+        <hr>
+        <section id="events">
+
+        </section>
+      </div>
+      <script src="js/events.js"></script>
+
 
       <div class="flex-child3">
         <img src="images/article.jpg" alt="article picture">

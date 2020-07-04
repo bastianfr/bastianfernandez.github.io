@@ -1,6 +1,24 @@
 //Connect with JSON to get weather information
+const apiKey = '03d4df0de6cfef49bdedb2f58427f4e5';
+const baseURL = '//api.openweathermap.org/data/2.5/';
+let townName = document.getElementById('place').textContent;
+let cityid = '0'
+if (townName == "Preston Idaho") {
+    cityid = '5604473';
+} else if (townName == "Fish Haven Idaho"){
+    cityid = '5605242';
+} else {
+    cityid = '5607916';
+}
+let method = 'weather';
+let units = 'imperial';
+let apiURL = baseURL + 
+            method + '?' + 
+            'id=' + cityid + 
+            '&appid=' + apiKey + 
+            '&units=' + units;
 
-const apiURL = '//api.openweathermap.org/data/2.5/weather?id=5604473&appid=03d4df0de6cfef49bdedb2f58427f4e5&units=imperial';
+//const apiURL = '//api.openweathermap.org/data/2.5/weather?id=5604473&appid=03d4df0de6cfef49bdedb2f58427f4e5&units=imperial';
 
 
 fetch(apiURL)
@@ -29,11 +47,19 @@ fetch(apiURL)
 
 
 // Connect with JSON to get forecast infromation
-const api2URL = '//api.openweathermap.org/data/2.5/forecast?id=5604473&appid=03d4df0de6cfef49bdedb2f58427f4e5&units=imperial';
+
+method = 'forecast';
+apiURL = baseURL + 
+            method + '?' + 
+            'id=' + cityid + 
+            '&appid=' + apiKey + 
+            '&units=' + units;
+
+//const api2URL = '//api.openweathermap.org/data/2.5/forecast?id=5604473&appid=03d4df0de6cfef49bdedb2f58427f4e5&units=imperial';
 
 const dayOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
-fetch(api2URL)
+fetch(apiURL)
     .then( response => response.json() )
     .then( data => {
         //Information
