@@ -171,3 +171,16 @@ p {
     border-radius: 10px;
     
 }
+/*Article*/
+.article {
+    border: 1px solid #0044AB;
+    background-color: #55CFFF;
+    margin: 1em 0;
+    padding: 1.5em;
+    text-align: left;
+
+}
+
+.article img {
+    max-width: 100%;
+}

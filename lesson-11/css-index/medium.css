@@ -64,6 +64,11 @@
         max-width: 100%;
         margin: auto;
     }
-
+    /*Article*/
+    .article img {
+        float: right;
+        margin: 1em 1em;
+        box-shadow: 0 0 20px black;
+    }
 
 }
