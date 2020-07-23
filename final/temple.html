@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn & Suites - Home</title>
+    <meta name="description"
+        content="Hotel website that offers services to LDS attending temples for all the situations.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css-temples/small.css">
+    <link rel="stylesheet" href="css-temples/medium.css">
+    <link rel="stylesheet" href="css-temples/large.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="">
+        <nav class="nav">
+            <ul>
+                <li id="menu"><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li ><a href="index.html">Home</a></li>
+                <li class="active"><a href="#">Temple</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li id="service">
+                    <a href="services.html">Services</a>
+                    <ul>
+                        <li><a href="reception.html">Reception</a></li>
+                        <li><a href="f_t_temple_missionary.html">Full-Time Temple Missionary</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact Page</a></li>
+            </ul>
+        </nav>
+        <h1> Temple Inn & Suites</h1>
+    </header>
+    <main>
+        <h2>Temples to Visit</h2>
+        <div class="temple_display">
+            <div class="holder">
+                <h3 id=>San Diego, California</h3>
+                <img src="images/san_diego.webp" alt="">
+                <div class="information">
+                    <section>
+                        <h3>Address:</h3>
+                        <p>7474 Charmant Dr <br>
+                            San Diego CA 92122-5000 <br>
+                            United States
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Telephone:</h3>
+                        <p>(1) 858-622-0991</p>
+                    </section>
+                    <section>
+                        <h3>Email:</h3>
+                        <p>sandiego@lds.org</p>
+                    </section>
+                    <section>
+                        <h3>Service:</h3>
+                        <p>
+                            No clothing rental available <br>
+                            No cafeteria available
+                        </p>
+                    </section>
+                    <section>
+                        <h3>History:</h3>
+                        <p>
+                            Apr 7, 1984 Temple Announced <br>
+                            Feb 27, 1988 Groundbreaking <br>
+                            Feb 20, 1993 Open House Start Date <br>
+                            Apr 3, 1993 Open House End Date <br>
+                            Apr 25, 1993 Dedication Date
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Ordinance Schedule:</h3>
+                        <p><strong>Tuesday–Friday</strong> 8:00 a.m.–8:00 p.m. <br>
+                            <strong>Saturday</strong> 7:00 a.m.–7:00 p.m.</p>
+                    </section>
+                    <section>
+                        <h3>Session Schedule:</h3>
+                        <p> <strong>Tuesday-Friday</strong> 8:00, 9:00, 9:30 a.m., then every hour from 10:00 a.m. to
+                            6:00
+                            p.m.;
+                            Every 30 minutes from 6:30 to 7:30 p.m.;<br>
+                            <strong> Additional sessions:</strong> Tuesday, 5:30 a.m. (English) and Friday, 8:00 p.m.
+                            (Spanish)
+                            Saturday Every 30 minutes from 7:30 to 9:30 a.m., from 10:30 to 11:30 a.m.,
+                            and 12:30 p.m.; Every hour from 1:00 to 6:00 p.m.; 6:30, 7:00 p.m.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Temple Closure Schedule:</h3>
+                        <div id="san_diego">
+
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Summary:</h3>
+                        <p>Currently: <span id="currentlySD"></span>
+                        </p>
+                        <p>High: <span id="highSD"></span>
+                        </p>
+                        <p>Humidity: <span id="humiditySD"></span> %
+                        </p>
+                        <p>Wind Speed: <span id="windSSD"></span> mph
+                        </p>
+                    </section>
+                </div>
+            </div>
+            
+
+            <div class="holder">
+                <h3>Paris, France</h3>
+                <img src="images/paris.webp" alt="">
+                <div class="information">
+                    <section>
+                        <h3>Address:</h3>
+                        <p>46, Boulevard Saint Antoine <br>
+                            78150 Le Chesnay <br>
+                            France
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Telephone:</h3>
+                        <p>+33 (0)9 70 73 70 00</p>
+                    </section>
+                    <section>
+                        <h3>Email:</h3>
+                        <p>paris-off@ldschurch.org</p>
+                    </section>
+                    <section>
+                        <h3>Service:</h3>
+                        <p>
+                            No cafeteria service <br>
+                            No clothing service
+                        </p>
+                    </section>
+                    <section>
+                        <h3>History:</h3>
+                        <p>
+                            Oct 1, 2011 Temple Announced, Groundbreaking, Open House, Start DateOpen House, End Date <br>
+                            May 21, 2017 Dedication Date
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Ordinance Schedule:</h3>
+                        <p><strong>Tuesday–Thursday</strong> 10:00, 10:45 a.m.; 12:30, 1:15, 3:00, 3:45, 5:30, 6:15 p.m.
+                            <br>
+                            <strong>Friday</strong> 10:00, 10:45 a.m.; 12:30, 1:15, 3:00, 3:45, 5:30, 7:30 p.m. <br>
+                            <strong>Saturday</strong> 8:30, 9:15, 11:00, 11:45 a.m.; 1:30, 2:15 p.m.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Session Schedule:</h3>
+                        <p>
+                            <strong>Tuesday–Thursday</strong> 10:00 a.m.; 12:30, 3:00, 5:30 p.m. <br>
+                            <strong>Friday</strong> 7:00 p.m. <br>
+                            <strong>Saturday</strong> 8:30, 11:00 a.m.; 1:30 p.m.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Temple Closure Schedule:</h3>
+                        <div id="paris">
+
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Summary:</h3>
+                        <p>Currently: <span id="currentlyP"></span>
+                        </p>
+                        <p>High: <span id="highP"></span>
+                        </p>
+                        <p>Humidity: <span id="humidityP"></span> %
+                        </p>
+                        <p>Wind Speed: <span id="windSP"></span> mph
+                        </p>
+                    </section>
+                   
+                </div>
+            </div>
+            
+
+
+            <div class="holder">
+                <h3>Sao Paulo, Brazil</h3>
+                <img src="images/sao_paulo.webp" alt="">
+                <div class="information">
+                    <section>
+                        <h3>Address:</h3>
+                        <p>
+                            Av. Professor Francisco Morato, <br>
+                            2390 <br>
+                            Caxingui - Sao Paulo - SP <br>
+                            CEP 05512-900 <br>
+                            Brazil
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Telephone:</h3>
+                        <p>(55) 11-3723-7600</p>
+                    </section>
+                    <section>
+                        <h3>Email:</h3>
+                        <p>saopaulo@lds.org</p>
+                    </section>
+                    <section>
+                        <h3>Service:</h3>
+                        <p>
+                            Cafeteria service available <br>
+                        Clothing service available
+                        </p>
+                    </section>
+                    <section>
+                        <h3>History:</h3>
+                        <p>
+                            Mar 1, 1975 Temple Announced
+                            Mar 20, 1976 Groundbreaking
+                            Oct 30, 1978 Open House Start Date
+                            Oct 30, 1978 Open House End Date
+                            Oct 30, 1978 Dedication Date
+                            Feb 22, 2004 Rededication
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Ordinance Schedule:</h3>
+                        <p>
+                            <strong>Tuesday–Thursday</strong> 9:00 a.m.–9:00 p.m. <br>
+                        <strong>Friday</strong> 9:00 a.m.–4:00 p.m. <br>
+                        <strong>Saturday</strong> 7:0 0a.m.–2:00 p.m.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Session Schedule:</h3>
+                        <p>
+                            <strong>Tuesday–Friday</strong> 9:00, 10:30 a.m.; 12:00 noon, 3:30, 5:45, 7:45, 8:15 p.m. <br>
+                        <strong>Saturday</strong> 7:00, 8:00, 9:30, 10:30 a.m.; 12:00 noon; 1:00, 2:30, 3:30 p.m.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Temple Closure Schedule:</h3>
+                        <div id="sao_paulo">
+
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Summary:</h3>
+                        <p>Currently: <span id="currentlySP"></span>
+                        </p>
+                        <p>High: <span id="highSP"></span>
+                        </p>
+                        <p>Humidity: <span id="humiditySP"></span> %
+                        </p>
+                        <p>Wind Speed: <span id="windSSP"></span> mph
+                        </p>
+                    </section>
+                    
+                </div>
+            </div>
+            
+
+            <div class="holder">
+                <h3>St. George, Utah</h3>
+                <img src="images/st_george.webp" alt="">
+                <div class="information">
+                    <section>
+                        <h3>Address:</h3>
+                        <p>
+                            250 East 400 South <br>
+                        St. George, UT 84770-3699 <br>
+                        United States of America
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Telephone:</h3>
+                        <p>(1) 435-673-3533</p>
+                    </section>
+                    <section>
+                        <h3>Email:</h3>
+                        <p>stgeorge@lds.org</p>
+                    </section>
+                    <section>
+                        <h3>Service:</h3>
+                        <p>
+                            Cafeteria service available <br>
+                        Clothing service available <br>
+                        Guest housing available
+                        </p>
+                    </section>
+                    <section>
+                        <h3>History:</h3>
+                        <p>
+                            Nov 9, 1871 Temple Announced
+                            Nov 9, 1871 Groundbreaking
+                            Apr 6, 1877 Open House Start Date
+                            Apr 6, 1877 Open House End Date
+                            Apr 6, 1877 Dedication Date
+                            Nov 11, 1975 Rededication
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Ordinance Schedule:</h3>
+                        <p>
+                            <strong>Monday</strong> 6:00–11:30 a.m. <br>
+                        <strong>Tuesday and Thursday</strong> 6:00 a.m.–7:30 p.m. <br>
+                        <strong>Wednesday and Friday</strong> 6:00 a.m.–8:30 p.m. <br>
+                        <strong>Saturday</strong> 6:00 a.m.–5:30 p.m.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Session Schedule:</h3>
+                        <p>
+                            <strong>Monday</strong> 7:20, 8:00, 8:40, 9:20, 10:00, 10:40, 11:20 a.m. <br>
+                        <strong>Tuesday–Saturday</strong> Every 40 minutes from 7:20 a.m. to 8:00 p.m.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Temple Closure Schedule:</h3>
+                        <div id="st_george">
+
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Summary:</h3>
+                        <p>Currently: <span id="currentlySG"></span>
+                        </p>
+                        <p>High: <span id="highSG"></span>
+                        </p>
+                        <p>Humidity: <span id="humiditySG"></span> %
+                        </p>
+                        <p>Wind Speed: <span id="windSSG"></span> mph
+                        </p>
+                    </section>
+                    
+                </div>
+            </div>
+            
+           
+        </div>
+    </main>
+    <footer>
+        &copy; Temple Inn & Suites | Bastian Fernandez | 2020
+        <a href="reference.html">Reference Page</a>
+      </footer>
+    <script src="js/SanDiego.js"></script>
+    <script src="js/temple.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Merriweather', 'Quattrocento Sans', 'Roboto'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>

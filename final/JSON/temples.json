@@ -1,0 +1,51 @@
+{
+  "temples": [
+    {
+      "name": "San Diego",
+      "closed": [
+        "Monday, March 20 - Monday, April 3",
+        "Monday, September 18 - Monday, October 2",
+        "Saturday, April 1",
+        "Tuesday, July 4",
+        "Saturday, September 30",
+        "Wednesday, November 22",
+        "Thursday, November 23",
+        "Saturday, December 30"
+      ]
+    },
+    {
+      "name": "Sao Paulo",
+      "closed": [
+        "Monday, March 13 - Monday, March 27",
+        "Monday, August 14 - Monday, August 28",
+        "Saturday, April 1",
+        "Thursday, September 7",
+        "Saturday, September 30",
+        "Saturday, December 30"
+      ]
+    },
+    {
+      "name": "St. George",
+      "closed": [
+        "Monday, March 13 - Saturday, March 25",
+        "Monday, September 11 - Saturday, September 23",
+        "Saturday, April 1",
+        "Monday, May 29",
+        "Monday, July 3",
+        "Tuesday, July 4",
+        "Saturday, September 30",
+        "Wednesday, November 22",
+        "Thursday, November 23",
+        "Saturday, December 25"
+      ]
+    },
+    {
+      "name": "Paris",
+      "closed": [
+        "Tuesday, December 5 - Monday, December 18",
+        "Saturday, December 23",
+        "Saturday, December 30"
+      ]
+    }
+  ]
+}

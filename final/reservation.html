@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn & Suites - Home</title>
+    <meta name="description"
+        content="Hotel website that offers services to LDS attending temples for all the situations.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css-reservation/small.css">
+    <link rel="stylesheet" href="css-reservation/medium.css">
+    <link rel="stylesheet" href="css-reservation/large.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="">
+        <nav class="nav">
+            <ul>
+                <li id="menu"><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li ><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temple</a></li>
+                <li class="active"><a href="#">Reservation</a></li>
+                <li id="service">
+                    <a href="services.html">Services</a>
+                    <ul>
+                        <li><a href="reception.html">Reception</a></li>
+                        <li><a href="f_t_temple_missionary.html">Full-Time Temple Missionary</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact Page</a></li>
+            </ul>
+        </nav>
+        <h1> Temple Inn & Suites</h1>
+    </header>
+    <main>
+        <h2>Make a Reservation</h2>
+
+        <form method="get" action="confirmation.html">
+            <label class="top">Temple Location
+                <select name="tlocation" required>
+                    <option value="" selected disabled>Select Location ...</option>
+                    <option value="sanFrancisco">San Francisco</option>
+                    <option value="SaoPaulo">Sao Paulo</option>
+                    <option value="paris">Paris</option>
+                    <option value="stGeorge">St. George</option>
+                </select>
+            </label>
+            <label class="top">Date <input type="date" name="sdate" required></label>
+            <label class="top">Rooms<input type="number" name="nrooms" required></label>
+            <label class="top">Room Type
+                <select name="rType" required>
+                    <option value="" selected disabled>Select room ...</option>
+                    <option value="single">Single bed</option>
+                    <option value="singletwo">Two single beds</option>
+                    <option value="cuple">Couple</option>
+                    <option value="families">Family</option>
+                    <option value="missionaries">Missionaries</option>
+                </select>
+            </label>
+            <label class="top"> Fullname <input type="text" name="fname" autofocus required></label>
+            <label class="top"> Email <input type="email" name="email" placeholder="somebody@example.com"></label>
+            <label class="top"> Phone Number<input type="tel" name="phone" required></label>
+            <label class="top"> State or Country<input type="text" name="state" required></label>
+            <label class="top" id="comment">Special Accommodations/Comments <textarea name="comments" cols="30"
+                    rows="10"></textarea></label>
+
+            <input type="submit" value="Reserve" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        &copy; Temple Inn & Suites | Bastian Fernandez | 2020
+        <a href="reference.html">Reference Page</a>
+      </footer>
+    <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Merriweather', 'Quattrocento Sans', 'Roboto'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+@media only screen and (min-width: 1200px){
+    header, main{
+        max-width: 1200px;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    /* Reservation*/
+form { 
+    max-width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.top {
+    display: block;
+    text-align-last: left;
+    width: 250px;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+.top input, select, textarea {
+    display: block;
+    padding: .75rem;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+form input.submitBtn {
+    padding: 1rem;
+    width: 96%;
+    margin: auto;
+}
+form input.submitBtn:hover {
+    box-shadow: 0 0 10px #999;
+    font-weight: bold;
+}
+form label.top input:required {
+    border-left: red solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+label.required::after {
+    content: " *";
+    color: red;
+}
+#comment{
+    flex-grow: 3;
+}
+}

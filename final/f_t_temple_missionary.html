@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn & Suites - Home</title>
+    <meta name="description"
+        content="Hotel website that offers services to LDS attending temples for all the situations.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css-missionaries/small.css">
+    <link rel="stylesheet" href="css-missionaries/medium.css">
+    <link rel="stylesheet" href="css-missionaries/large.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="">
+        <nav class="nav">
+            <ul>
+                <li id="menu"><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temple</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li id="service">
+                    <a href="services.html">Services</a>
+                    <ul>
+                        <li><a href="reception.html">Reception</a></li>
+                        <li class="active"><a href="#">Full-Time Temple Missionary</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact Page</a></li>
+            </ul>
+        </nav>
+        <h1> Temple Inn & Suites</h1>
+    </header>
+    <main>
+        <h2>Missionary Suite</h2>
+        <div class="information">
+            <div>
+                <img src="images/kitchenette_m.webp" alt="">
+                <h3>Kitchenette includes:</h3>
+                <ul>
+                    <li>Full size fridge</li>
+                    <li>Microwave</li>
+                    <li>Stove and oven</li>
+                    <li>Dishes and silverware</li>
+                    <li>Dishwasher</li>
+                </ul>
+            </div>
+            <div>
+                <img src="images/bedroom.webp" alt="">
+                <h3>Bedroom includes:</h3>
+                <ul>
+                    <li>Queen size bed</li>
+                    <li>Double closet</li>
+                    <li>Sheets changed weekly</li>
+                </ul>
+            </div>
+            <div>
+                <img src="images/living.webp" alt="">
+                <h3>Living Area includes:</h3>
+                <ul>
+                    <li>Complimentary blankets</li>
+                    <li>8 seat sectional</li>
+                    <li>Flat screen TV</li>
+                    <li>Cofee table</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Contact Us</h2>
+        <form action="thanks.html">
+
+            <label for="fname">First Name</label>
+            <input type="text" name="firstname" placeholder="Name">
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lastname" placeholder="Last Name">
+
+            <label for="email">Email</label>
+            <input type="text" name="email" placeholder="Email">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" id="submit" value="Submit">
+
+        </form>
+    </main>
+    <footer>
+        &copy; Temple Inn & Suites | Bastian Fernandez | 2020
+        <a href="reference.html">Reference Page</a>
+      </footer>
+    <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+          google: {
+            families: [
+              'Merriweather', 'Quattrocento Sans', 'Roboto'
+            ]
+          }
+        });
+      </script>
+</body>
+
+</html>
