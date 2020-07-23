@@ -142,6 +142,7 @@ header h1{
 }
 .packeges{
     display: grid;
+    color: white;
     
 }
 .packeges section{
