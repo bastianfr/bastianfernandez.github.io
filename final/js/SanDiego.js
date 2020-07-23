@@ -25,8 +25,8 @@ fetch(apiURL)
 
     });
 
-let cityid = '51299';
-let apiURL = baseURL +
+cityid = '51299';
+apiURL = baseURL +
     method + '?' +
     'id=' + cityid +
     '&appid=' + apiKey +
@@ -45,8 +45,8 @@ fetch(apiURL)
 
     });
 
-let cityid = '5694473';
-let apiURL = baseURL +
+cityid = '5694473';
+apiURL = baseURL +
         method + '?' +
         'id=' + cityid +
         '&appid=' + apiKey +
@@ -65,8 +65,8 @@ fetch(apiURL)
 
     });
 
-let cityid = '5697916';
-let apiURL = baseURL +
+cityid = '5697916';
+apiURL = baseURL +
         method + '?' +
         'id=' + cityid +
         '&appid=' + apiKey +
