@@ -55,4 +55,7 @@ label.required::after {
 #comment{
     flex-grow: 3;
 }
+h2{
+    font-size: 2rem;
+}
 }

@@ -17,4 +17,7 @@
     .nav a{
         padding: 0.75rem;
     }
+    h2{
+        font-size: 2rem;
+    }
 }

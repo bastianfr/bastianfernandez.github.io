@@ -45,7 +45,7 @@ fetch(apiURL)
 
     });
 
-cityid = '5946473';
+cityid = '3245';
 apiURL = baseURL +
         method + '?' +
         'id=' + cityid +
@@ -65,7 +65,7 @@ fetch(apiURL)
 
     });
 
-cityid = '5697916';
+cityid = '3530';
 apiURL = baseURL +
         method + '?' +
         'id=' + cityid +
